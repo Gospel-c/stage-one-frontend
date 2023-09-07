@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #26235C;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.time {
+    padding: 10px 0;
+    background-color: #9082EC;
+    color: #f0f0f0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.track {
+    color: #F9F871;
+    font-size: 30px;
+}
+
+p[data-testid="currentDayOfTheWeek"] {
+    color: #f0f0f0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #f0f0f0;
+    font-weight: 100;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+a {
+    color: #A79AE0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
